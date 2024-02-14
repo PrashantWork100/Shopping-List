@@ -1,0 +1,172 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+user-select: none;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(8, 32, 39);
+
+}
+
+.main{
+    height: 80vh;
+    width: 40vw;
+ background-color: antiquewhite;
+ display: grid;
+ grid-template-rows:20vh 20vh 30vh 10vh ;
+ border-radius: 20px;
+}
+
+.title{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 30px;
+    width: 100%;
+    background-color:lightcoral;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.logo{
+    font-weight: bolder;
+    font-size: 50px;
+    padding-left: 50px;
+
+}
+
+.name{
+    font-size: 50px;
+    width: 25vw;
+    text-align: left;
+}
+
+.new   {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ flex-direction: column;
+ padding-top: 20px;
+
+    
+}
+
+.text {
+    margin-top: 20px;
+    padding: 20px;
+    width: 30vw;
+    border-radius: 10px;
+    box-shadow: inset 2px 3px 3px black;
+ 
+
+}
+
+button{
+    padding: 10px;
+    width: 200px;
+    font-size: larger;
+    font-weight: bolder;
+    border-radius: 20px;
+    border: 0px;
+    background-color: lightpink;
+    transition: background-color .5S ease-out;
+    transition: color .4S ease-out;
+
+}
+
+button:hover{
+    background-color: rgb(190, 94, 109);
+    transition: background-color  .5S ease-out;
+    transition: color  .4S ease-out;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+
+.list{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-y: auto;
+    border: 1PX solid lightgray;
+}
+
+
+
+ul{
+    width: 100%;
+   padding-left: 4vw;
+}
+li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 2px;
+padding: 5px;
+list-style: none;
+text-align: left;
+background-color:azure;
+border: 1px solid rgb(145, 143, 143);
+border-radius: 10px;
+padding-left: 20px;
+
+}
+
+.item .fas {
+    padding-right: 10px;
+    font-size: small;
+    color: rgb(116, 116, 116);
+}
+
+.action{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 40px;
+
+}
+
+.clear{
+    padding: 10px;
+    width: 200px;
+    font-size: larger;
+    font-weight: bolder;
+    border-radius: 20px;
+    border: 0px;
+    background-color: rgb(190, 94, 109);
+  color: aliceblue;
+  transition: color .4S ease-out;
+}
+
+.clear:hover{
+    background-color: lightpink;
+    transition: background-color .5S ease-out;
+    transition: color .4S ease-out;
+    color: black;
+    cursor: pointer;
+}
+
+
+li:hover{
+    background-color: rgb(102, 102, 102);
+   
+    color: aliceblue;
+  
+}
+
+.item .fas:hover {
+    color: aliceblue;
+    cursor: pointer;
+}
